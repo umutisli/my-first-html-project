@@ -1,0 +1,334 @@
+/* General Styles */
+body {
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #001899;
+    max-height: 96px;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, .10);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    height: 96px;
+}
+
+/* Menu Styles */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    display: inline-flex;
+    align-items: center;
+}
+
+.menu ul li a {
+    color: #f8f8f8;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 0 10px;
+    border-right: 1px solid rgba(255, 255, 255, .40);
+}
+ 
+.menu ul li:last-child a {
+    border-right: none;
+}
+
+.header-features {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ 
+}
+
+.header-features .ui-button {
+    color: #1d1d1b;
+    background: #f8f8f8;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-right: 19.5px;
+}
+
+.lang {
+    color: rgba(248,248,248, 0.4);
+    padding: 0 12.5px;
+    border-right: 1px solid rgba(255, 255, 255, .40);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.lang:last-child {
+    padding: 0 0px 0 12.5px;
+    border-right: none;
+}
+
+.lang.active {
+    color: rgb(248,248,248);
+}
+
+.banner {
+    background-color: rgba(0, 24, 153, 1);
+    padding: 40px 0;
+    box-shadow: 0px -8px 32px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.banner .banner-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .banner-content strong {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: rgba(248, 248 ,248, 1)
+
+}
+
+.banner .banner-content span {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    color: rgba(248, 248 ,248, 0.8);
+    margin-top: 20px;
+}
+
+.service figure {
+    margin:40px 0 0 0;
+}
+
+.service figure img {
+    width: 100%;
+    display: block;
+}
+
+.service figure strong {
+    display: block;
+    margin: 12px 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-size:26px;
+    font-weight: 900;
+    line-height: 38px;
+    color:rgba(0, 0, 0, 1)  
+}
+
+.service figure figcaption {
+    padding: 0 20px 20px 20px;
+    border: 1px solid #ececec;
+}
+
+.service figure p {
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(64, 64, 64, 1);
+}
+
+.services .row {
+    margin: 0 -30px;
+}
+
+.contact-section {
+    margin-top:100px;
+    margin-bottom: 160px;
+}
+
+.contact-section .address {
+    border: 1px solid rgba(236, 236,236,1);
+    padding: 20px;
+}
+.contact-section strong {
+    display: block;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.contact-section p{
+    margin-bottom: 8px;
+    margin-top:0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color:#404040;
+}
+.contact-section .map {
+    display: flex;
+    max-width: 180px;
+    flex-direction: column;
+    margin-top:24px;
+    border:1px solid #e1e1e1;
+
+}
+.contact-section .map img {
+    height: auto;
+    display: block;
+}
+.contact-section span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#1d1d1d;
+    padding:12px 0;
+    text-align: center;
+}
+.contact-section .form {
+    padding: 32px 24px;
+}
+
+.form {
+    border: 1px solid #ececec;
+    border-left: none;
+}
+
+.form label span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#1d1d1d;
+}
+
+.form input,
+.form textarea {
+    border: 1px solid rgba(236,236,236,1);
+    padding: 12px 16px;
+    margin-top:4px;
+    margin-bottom: 32px;
+    width: 100%;
+    resize: none;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+.form button {
+    background: #001899;
+    color:#f8f8f8;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    border:none;
+    padding:5px 0;
+}
+ .content figure {
+     margin:0;
+}
+.content figure img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin:40px 0;
+}
+
+.content figure p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color:#1d1d1b;
+    margin-top:76px;
+}
+
+.sidebar-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color:#000000;
+    display: block;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 12px;
+    margin-top:40px;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+ .sidebar ul li a{
+    background: #f8f8f8;
+    color:#1d1d1d;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 12px 0;
+    padding: 8px 16px;
+ }
+ .letter .content {
+     border: 1px solid #ececec;
+     margin-bottom: 24px;
+     
+ }
+ .letter .content strong{
+     margin:8px 12px 20px;
+     font-family: 'Playfair Display', sans-serif;
+     font-size: 24px;
+     font-weight: 900;
+     line-height: 32px;
+     color:#000000;
+     margin-bottom: 24px;
+     display: block;
+ }
+ .letter .content span {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     display: block;
+     margin:12px 0px 8px 12px;
+     color:#797979;
+ }
+ .letter .content img{
+     display: block;
+     margin: 0;  
+ }
+ .category.container{
+     margin-top:40px;
+ }
+ .category .letter strong {
+     font-size: 18px;
+     line-height: 28px; 
+     margin:0;
+     margin-bottom: 8px;  
+ }
+ .category .letter p{
+     font-size: 14px;
+     line-height: 18px;
+     margin:0;
+ }
+ .category .letter span{
+     margin-left: 0;
+     margin-top: 0;
+ }
+ .category .letter figcaption{
+     padding: 12px;
+ }
+ .category .sidebar-title:first-child {
+     margin-top: 0;
+ }
